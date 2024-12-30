@@ -1,0 +1,20 @@
+.navbar{
+    box-shadow: 0 3px 6px rgba(14, 137, 129, 0.6);
+}
+.head{
+    background: linear-gradient(rgba(14, 137, 129, 0.6),rgba(14, 137, 129, 0.6)),url(../images/mountains.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+h5{
+    font-size:60px;
+    font-weight: lighter;
+}
+img{
+    margin-top: -40px;
+}
+footer p{
+    padding-bottom:150px ;
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Question 1</title>
+    <link rel="icon" type="image/png" href="images/logo.jpg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="head">
+      <nav class="navbar navbar-expand-lg  bg-body-tertiary ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/mlogo.png" width="70px" height="70px" alt="">
+            <span class="fw-bold">Mizuxe</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Meet the Authers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row pt-5 d-flex align-items-center">
+          <div class="col-md-7 pt-5 text-center">
+            <h5 class=" text-white  pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, neque!</h5>
+            <button class="btn bg-transparent  p-2 text-white btn-outline-secondary"><i class="fa-solid fa-arrow-right"></i>Learn More</button>
+          </div>
+          <div class="col-md-5">
+            <img src="images/book.png" class="w-100" alt="">
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="form bg-secondary py-5">
+      <div class="container">
+        <form action="">
+          <div class="row">
+            <div class="col-md-4 col-sm-12 mb-3">
+              <input type="text" placeholder="your name" id="name" class="form-control p-3" >
+            </div>
+            <div class="col-md-4 col-sm-12 mb-3">
+              <input type="email" name="" id="email" placeholder="your email" class="form-control p-3">
+            </div>
+            <div class="col-md-4 col-sm-12 mb-3">
+              <button type="submit" onclick="validateEmail()" class="btn btn-primary text-white text-center form-control p-3"><i class="fa-solid fa-envelope-open"></i>Subscibe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="cards my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-12 mb-3">
+            <div class="card p-3 text-center">
+              <h6 class="text-primary fw-bold fs-3">Be better</h6>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 mb-3">
+            <div class="card p-3 text-cente  bg-primary text-white">
+              <h6 class="fw-bold fs-3">Be smarter</h6>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 mb-3">
+            <div class="card p-3 text-center">
+              <h6 class="text-primary fw-bold fs-3">Be faster</h6>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 mb-3">
+            <div class="card p-3 text-center bg-primary text-white">
+              <h6 class=" fw-bold fs-3">Be stronger</h6>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="why-us text-center py-5">
+      <div class="container">
+      <h2 class="text-primary">Why this book?</h2>
+      <div class="row">
+<div class="col-md-12">
+  <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in harum at iusto, et eum quae repellendus dignissimos dolorem delectus laudantium, veniam tempore, pariatur suscipit.</p>
+</div>
+       <div class="col-md-12  text-center">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button text-center text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <i class="fa-solid fa-arrow-down p-1 bg-primary text-white rounded-circle"></i>  Get inspired
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body" >
+                <strong >This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed  text-center text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <i class="fa-solid fa-arrow-down p-1 bg-primary text-white rounded-circle"></i>Gain the knowledge
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed  text-center text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <i class="fa-solid fa-arrow-down p-1 bg-primary text-white rounded-circle"></i> open your mind
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+    </section>
+    <section class="authoures text-center ">
+      <div class="container">
+        <h2 class="text-primary py-3">Meet the Authors</h2>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur.</p>
+        <p class="lead">Lorem ipsum dolor sit amet.</p>
+        <div class="row">
+          <div class="col-md-3 col-sm-12 my-5">
+            <div class="card">
+              <img src="images/person1.jpg" alt="" class=" rounded-circle mx-auto" width="100px" height="100px">
+              <div class="card-body">
+                <h3>Susan William</h3>
+                <p class="text-secondary">Lead writer</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit qui non itaque praesentium magni ducimus!</p>
+                <div class="d-flex text-info fs-4">
+                  <i class="fa-brands fa-facebook-f ms-5"></i>
+                  <i class="fa-brands fa-twitter ms-5"></i>
+                  <i class="fa-brands fa-google-plus-g ms-5"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 my-5">
+            <div class="card">
+              <img src="images/person2.jpg" alt="" class=" rounded-circle mx-auto" width="100px" height="100px">
+              <div class="card-body">
+                <h3>Grace smith</h3>
+                <p class="text-secondary">co writer</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit qui non itaque praesentium magni ducimus!</p>
+                <div class="d-flex text-info fs-4">
+                  <i class="fa-brands fa-facebook-f ms-5"></i>
+                  <i class="fa-brands fa-twitter ms-5"></i>
+                  <i class="fa-brands fa-google-plus-g ms-5"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 my-5">
+            <div class="card">
+              <img src="images/person3.jpg" alt="" class=" rounded-circle mx-auto" width="100px" height="100px">
+              <div class="card-body">
+                <h3>john Deo</h3>
+                <p class="text-secondary">Editor</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit qui non itaque praesentium magni ducimus!</p>
+                <div class="d-flex text-info fs-4">
+                  <i class="fa-brands fa-facebook-f ms-5"></i>
+                  <i class="fa-brands fa-twitter ms-5"></i>
+                  <i class="fa-brands fa-google-plus-g ms-5"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 my-5">
+            <div class="card">
+              <img src="images/person1.jpg" alt="" class=" rounded-circle mx-auto" width="100px" height="100px">
+              <div class="card-body">
+                <h3>Susan William</h3>
+                <p class="text-secondary">Lead writer</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit qui non itaque praesentium magni ducimus!</p>
+                <div class="d-flex text-info fs-4">
+                  <i class="fa-brands fa-facebook-f ms-5"></i>
+                  <i class="fa-brands fa-twitter ms-5"></i>
+                  <i class="fa-brands fa-google-plus-g ms-5"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact my-5">
+      <div class="container">
+        <h5>Get In Touch</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, temporibus.</p>
+        <div class="row">
+          <div class="col-md-9">
+              <form action="">
+                <div class="row">
+                  <div class="col-md-12 mb-3">
+                    <input type="text" name="" id="" class="form-control" placeholder="name">
+                  </div>
+                  <div class="col-md-12 mb-3">
+                    <input type="email" name="" id="" class="form-control" placeholder="email">
+                  </div>
+                  <div class="col-md-12 mb-3">
+                    <textarea name="" id="" placeholder="message" rows="7" class="form-control"></textarea>
+                  </div>
+                  <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary form-control">Submit</button>
+                  </div>
+                </div>
+              </form>
+          </div>
+          <div class="col-md-3 col-sm-12 my-5">
+            <img src="images/mlogo.png" class="w-100" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-primary text-white text-center pt-5 fs-5 mt-5">
+      <div class="container">      <p>copyright&copy;2017Mizuxe</p>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
